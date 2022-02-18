@@ -37,78 +37,28 @@ header
 }
 section
 {
-	margin-bottom: 80px;
+	/* margin-bottom: 80px; */
 }
 .section1
 {
-	margin-bottom: 48px;
+	/* margin-bottom: 48px; */
 }
 .section2
 {
-	margin-bottom: 32px;
+	/* margin-bottom: 32px; */
 }
 .container
 {
-	max-width: 100%;
-	margin: 0px;
+	max-width: 1070px;
+	margin: 0 auto;
+	padding: 0 12px;
 }
-.row184
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 184px 80px 184px;
+.container-lg{
+	max-width: 1312px;
+	margin: 0 auto;
+	padding: 0 12px;
 }
-.row184-2
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 184px 0 184px;
-}
-.row184-3
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 184px 48px 184px;
-}
-.row184-4
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 0 320px 0;
-}
-.row184-5
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 0 48px 0;
-}
-.row184-1
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 0 80px 0;
-}
-.row184-6
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 48px 184px 80px 184px;
-}
-.row184-7
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 48px 184px 32px 184px;
-}
-.row184-8
-{
-	display: flex;
-	flex-wrap: wrap;
-	margin: 48px 184px 16px 184px;
-}
-.row2{
-	
-	margin: 0px 32px;
+.row{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -240,24 +190,28 @@ tr
 {
 	margin-bottom: 64px;
 }
-.menu a
-{
-	text-decoration: none;
-	color: #F1F0EB;
-	margin: 0 0 0 104px;
-}
-.menu a:hover
-{
-	border-bottom: 3px solid #F1F0EB;
+header{
+	padding: 32px 0;
 }
 .menu
 {
 	display: flex;
 	font-family: dosis-medium;
-	font-size: 16px;
-	text-align: right;
-	
+	justify-content: flex-end;
 }
+.menu a
+{
+	text-decoration: none;
+	color: #F1F0EB;
+	border-bottom: 3px solid transparent;
+	font-size: 16px;
+	margin-left: 96px;
+}
+.menu a:hover
+{
+	border-bottom: 3px solid #F1F0EB;
+}
+
 .cty{
 	width: 75px;
 	height: 75px;
@@ -287,7 +241,7 @@ tr
 {
 	text-decoration: none;
 	color: #F1F0EB;
-	marging-top: 16px;
+	margin-top: 16px;
 }
 .button
 {
@@ -305,7 +259,7 @@ tr
 {
 	text-decoration: none;
 	color: #F1F0EB;
-	marging-top: 16px;
+	margin-top: 16px;
 }
 .button2
 {
@@ -317,7 +271,7 @@ tr
 {
 	text-decoration: none;
 	color: #F1F0EB;
-	marging-top: 16px;
+	margin-top: 16px;
 }
 .button3
 {
@@ -353,9 +307,13 @@ tr
 }
 .banner
 {
+	padding: 32px 0;
+}
+.banner-content{
 	height: 520px;
-	margin-top: 48px;
-	background-color: aquamarine;
+	background-color: grey;
+	border-radius: 10px;
+	overflow: hidden;
 }
 .quangcao
 {background-color: aqua;
@@ -404,9 +362,24 @@ tr
 	background-color:aqua;
 	height: 220px;
 }
+.search{
+	/* padding: 48px 0; */
+}
 .find{
-	background-color: #464646;
-	height: 50px;
+	background-color: grey;
+	position: relative;
+}
+.find img{
+	position: absolute;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+}
+.find input{
+	border: none;
+	background-color: grey;
+	padding: 20px 0;
+	height: 52px;
 }
 .find1{
 	background-color: #464646;
@@ -582,7 +555,10 @@ tr
    to {opacity: 1}
  }
 
-
+ footer{
+    background-color: #333333;
+    padding: 60px 0;
+}
 
 
 
