@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 /*justify*/
+body{
+	font-family: dosis-regular;
+	font-size: 16px;
+	/* line-height: 150%; */
+}
 .bg-primary
 {
 	background-color: #464646;

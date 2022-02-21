@@ -11,7 +11,7 @@
 }
 .feature-art-ct{
     display: grid;
-    grid-template-columns:428px 336px 285px;
+    grid-template-columns:428px 336px 1fr;
     grid-template-rows: 380px 350px 325px 120px 295px;
     grid-gap: 32px;
 }
@@ -74,4 +74,36 @@
 .feature-img-art8{
     background-color: grey;
     height: 232px;
+}
+.art-content h2{
+    font-family: dosis-bold;
+	font-size: 18px;
+    margin-top: 16px;
+}
+.sap-dien-ra{
+    background-color: grey;
+    width: 245px;
+    height: 80px;
+    display: flex;
+}
+.select-dien-ra{
+    border:none;
+    outline: none;
+}
+.event{
+    border-top: 1px solid #272727;
+    border-bottom: 1px solid #272727;
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+.qc-home{
+    padding: 110px 0;
+    /* height: 858px; */
+}
+.card-big{
+    height: 532px;
+    background-color: grey;
+}
+.all-big-card{
+    height: 800px;
 }

@@ -217,11 +217,7 @@ header{
 	height: 75px;
 	background-color: burlywood;
 }
-.card
-{
-	background-color: beige;
-	height: 358px;
-}
+
 .img-card
 {
 	height: 242px;
@@ -386,10 +382,7 @@ header{
 	height: 50px;
 	width: 624px;
 }
-.text-card1
-{
-	margin: 24px;
-}
+
 .card2
 {
 	height: 120px;
@@ -559,31 +552,35 @@ header{
     background-color: #333333;
     padding: 60px 0;
 }
-.nav-mb{
-	display: none;
+.cac-khoa-hoc{
+    padding-bottom: 110px;
 }
-
-@media screen and (max-width: 390px) {
-    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
-		width: 100% !important;
-	}
-	.col-sm-3{
-		width: 25% !important;
-	}
-	.col-sm-9{
-		width: 75% !important;
-	}
-	.menu{
-		display: none;
-	}
-	.nav-mb{
-		display: block;
-	}
-	.text-sm-right{
-		text-align: right;
-	}
+.btn-xem-them{
+    padding: 14px 62px;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
 }
-
+.card{
+	background-color: khaki;
+}
+.text-card1{
+	padding: 24px 24px 30px;
+}
+.gv{
+	margin-top: 16px;
+}
+.avatar{
+	width: 32px;
+	height: 32px;
+	background-color: grey;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 12px;
+}
+.avatar .img{
+	width: 100%;
+}
 
 
 
