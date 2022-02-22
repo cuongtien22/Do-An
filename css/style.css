@@ -548,10 +548,6 @@ header{
    to {opacity: 1}
  }
 
- footer{
-    background-color: #333333;
-    padding: 60px 0;
-}
 .cac-khoa-hoc{
     padding-bottom: 110px;
 }
@@ -581,7 +577,9 @@ header{
 .avatar .img{
 	width: 100%;
 }
-
+.footer{
+	background-color: #333333;
+}
 
 
 
