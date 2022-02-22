@@ -2,8 +2,12 @@ body{
     background-color: #272727;
 }
 .banner{
-    height: 800px;
+    height: 799px;
     background-color: grey;
+    overflow: hidden;
+}
+.content-banner img{
+    width: 100%;
 }
 .feature-art{
     padding: 110px 0;
@@ -110,17 +114,17 @@ body{
 .all-big-card{
     height: 800px;
 }
-.slick-dots li button:before{
+/* .slick-dots li button:before{
     border-radius: 50%;
     background-color: grey;
-}
-.slick-dots li{
+} */
+/* .slick-dots li{
     border-radius: 50%;
-}
-.slick-active{
-    background-color: red;
-}
-.slick-dots{
+} */
+/* .slick-active{ */
+    /* background-color: red; */
+/* } */
+/* .slick-dots{ */
     /* margin-top: 24px !important; */
-    position: relative !important;
-}
+    /* position: relative !important; */
+/* } */

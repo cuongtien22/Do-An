@@ -39,8 +39,13 @@
 		<main>
 			<section class="banner">
 				<div class="container-fluid">
-					<div class="content-banner">
-
+					<div class="content-banner fade">
+						<div class="items-img">
+							<img src="image/image 75.png" alt="">
+						</div>
+						<div class="items-img">
+							<img src="image/image 229.png" alt="">
+						</div>
 					</div>
 				</div>
 			</section>
@@ -539,6 +544,14 @@
 			dots: true,
 			arrows: false
 		});
+
+		$('.fade').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
 	</script>
 </body>
 
