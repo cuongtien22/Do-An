@@ -577,13 +577,36 @@ header{
 .avatar .img{
 	width: 100%;
 }
-.footer{
+footer{
 	background-color: #333333;
+	padding: 100px 0;
 }
-
-
-
-
+.menu-footer ul{
+	list-style: none;
+	margin-top: 32px;
+}
+.menu-footer li{
+	margin-bottom: 32px;
+}
+.menu-footer li a{
+	color: white;
+	text-decoration: none;
+}
+.subscrise h2{
+	margin-bottom: 32px;
+}
+.social-icon{
+	list-style: none;
+	margin-top: 32px;
+}
+.social-icon li{
+	margin-left: 24px;
+}
+.copyright{
+	text-align: center;
+	color: white;
+	padding: 24px 0;
+}
 
 
 
