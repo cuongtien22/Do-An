@@ -73,13 +73,15 @@
     z-index: 20;
     
   }
-
+  .button.owl-prev{
+    display: none !important;
+  }
   .owl-dots{
     display: flex;
     position: absolute;
     z-index: 20;
     right: 206px;
-    bottom: 121px;
+    bottom: 75px;
   }
   .owl-dot{
     background: none;
@@ -97,7 +99,7 @@
   /* custom */
   .owl-nav button.owl-next{
     right: 64px;
-    bottom: 100px;
+    bottom: 50px;
   }
  .owl-nav button.owl-next:hover
    {

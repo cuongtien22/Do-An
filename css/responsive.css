@@ -17,6 +17,9 @@
 	.col-sm-9{
 		width: 75% !important;
 	}
+    .h4{
+        font-size: 24px;
+    }
 	.menu{
 		display: none;
 	}
@@ -47,6 +50,11 @@
     }
     .feature-img-art{
         height: 500px !important;
+        overflow: hidden;
+    }
+    .art img{
+        width: 100%;
+        height: auto;
     }
     .d-m-block{
         display: block !important;
@@ -64,5 +72,6 @@
     .align-s-m-top{
         align-self: flex-start !important;
     }
+    
 }
 

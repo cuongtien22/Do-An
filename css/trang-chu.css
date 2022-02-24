@@ -17,7 +17,11 @@ body{
 }
 .art{
     /* padding: 100px; */
-    background-color: pink;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+.art img{
+    height: 100%;
 }
 .art-1{
     grid-column: 1/2;
@@ -79,6 +83,15 @@ body{
     font-family: dosis-bold;
 	font-size: 18px;
     margin-top: 16px;
+    letter-spacing: 1.8px;
+}
+.art-content span{
+    font-weight: 200;
+    letter-spacing: 1.6px;
+}
+.art-5 img{
+    width: 428px;
+    height: 255px;
 }
 .sap-dien-ra{
     background-color: grey;
