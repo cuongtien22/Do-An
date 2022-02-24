@@ -631,3 +631,12 @@ footer{
 	}
 }
 
+.subscrise input{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #F1F0EB;
+    color: #F1F0EB;
+    padding-bottom: 4px;
+}
