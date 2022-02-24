@@ -547,7 +547,8 @@ header{
     background-color: grey;
 }
 .card{
-	background-color: khaki;
+	background-color: #F1F0EB;
+	color: #464646;
 }
 .text-card1{
 	padding: 24px 24px 30px;
@@ -569,6 +570,11 @@ header{
 footer{
 	background-color: #333333;
 	padding: 100px 0;
+}
+.logo-footer a{
+	font-size: 32px;
+	color: #F1F0EB;
+	text-decoration: none;
 }
 .menu-footer ul{
 	list-style: none;

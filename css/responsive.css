@@ -113,12 +113,16 @@
         padding: 0;
     }
     .card-big{
+        width: 100%!important;
         height: 126px;
         margin-bottom: 24px;
+        padding: 0 !important;
     }
     .align-s-m-top{
         align-self: flex-start !important;
     }
-    
+    .img-big img{
+        width: 100%;
+    }
 }
 

@@ -1,7 +1,15 @@
 body{
     background-color: #272727;
+    overflow-x: hidden;
+    
 }
-
+img{
+    transition: 0.2s ease-in-out;
+}
+img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
 .feature-art{
     padding: 110px 0;
 }
@@ -14,14 +22,22 @@ body{
     grid-template-columns:428px 336px 1fr;
     grid-template-rows: 380px 350px 325px 120px 295px;
     grid-gap: 32px;
+    /* overflow: hidden; */
 }
 .art{
     /* padding: 100px; */
     /* background-color: pink; */
     overflow: hidden;
 }
-.art img{
+.feature-img-art{
+    overflow: hidden;
+}
+.feature-img-art img{
     height: 100%;
+    /* filter: grayscale(50%); */
+}
+.art img:hover{
+    /* filter: grayscale(0); */
 }
 .art-1{
     grid-column: 1/2;
@@ -100,10 +116,58 @@ body{
 }
 .card-big{
     height: 532px;
-    background-color: grey;
+    /* background-color: grey; */
+    overflow: hidden;
+    height: 693px;
+    padding: 0 16px;
 }
+
 .all-big-card{
-    height: 800px;
+    height: 900px;
+}
+.card-bg-1{
+    background-image: url("../image/congviecfull.png");
+    object-fit: cover;
+    background-size: cover;
+}
+.card-bg-2{
+    background-image: url("../image/marketfull.png");
+    object-fit: cover;
+    background-size: cover;
+}
+.content-card-bg{
+    position: relative;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.card-bg{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 24px;
+}
+.card-bg h1{
+    font-size: 78px;
+    font-family: yeseve;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.sub-card{
+    position: absolute;
+    bottom: 15px;
+    right: 35px;
+    text-align: left;
+}
+.card-bg-2 h1{
+    text-align: right !important;
+    letter-spacing: 5px;
+}
+.card-bg-2 span{
+    text-align: right !important;
+    right: 285px !important;
 }
 /* .slick-dots li button:before{
     border-radius: 50%;
@@ -136,11 +200,78 @@ body{
     background-size: cover;
     background-position: center;
 }
+.title-banner{
+    position: absolute;
+    right: 170px;
+    bottom: 200px;
+}
+.title-banner p{
+    font-size: 40px;
+}
+.title-banner h2{
+    font-size: 80px;
+    font-family: yeseve;
+}
+.des-banner{
+    position: absolute;
+    left: 64px;
+    bottom: 96px;
+    font-family: dosis-medium;
+    font-size: 24px;
+}
 .bg-1{
     background-image: url("../image/image\ 75.png");
 }
 .bg-2{
     background-image: url("../image/image\ 229.png");
+}
+.gv{
+    position: relative;
+}
+.gv .avatar img{
+    width: 100%;
+}
+.img-card{
+    overflow: hidden;
+}
+.img-card img{
+    height: 100%;
+}
+.info{
+    position: relative;
+}
+.img-card{
+    position: relative;
+}
+.master-class{
+    padding: 4px 8px;
+    background-color: #E2B051;
+    text-decoration: none;
+    color: #272727;
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
+.label-price{
+    padding: 4px 12px;
+    background-color: #A23C26;
+    text-decoration: none;
+    color: #F1F0EB;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: absolute;
+    right: -24px;;
+}
+.subscrise input{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #F1F0EB;
+    color: #F1F0EB;
+    padding-bottom: 4px;
 }
 @media screen and (max-width:414px) {
     .bg-banner{
@@ -148,4 +279,81 @@ body{
         background-size: cover;
         background-position:-850px center;
     }
+    .card-bg{
+        background: grey;
+    }
+    .row-sm{
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .big-hinh-m{
+        background-color:#F1F0EB;
+        padding-left: 12px;
+    }
+    .content-card-sm{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100%;
+    }
+    .sub-card{
+        display: block;
+        position: static;
+        background-image: url("../image/m-congviec.png");
+        background-position: center;
+        background-size: cover;
+        padding-left: 12px;
+        padding-bottom: 4px;
+    }
+    .card-bg{
+        padding: 0;
+        justify-content: flex-start;
+        flex-direction: row;
+        display: block;
+    }
+    .cv-title{
+        font-size: 32px !important;
+        color: black !important;
+        font-family: dosis-regular;
+    }
+    .content-card-bg {
+        position: static;
+        /* text-align: right; */
+        margin-bottom: 0;
+    
+    }
+    .flex-reverse{
+        flex-direction: row;
+    }
+    .bg-sub-2{
+        background-image: url("../image/m-vieclam.png");
+        background-size: cover;
+    }
+    .qc-home{
+        padding: 80px 0;
+    }
+    .cac-khoa-hoc a{
+        color: white;
+        text-decoration: none;
+    }
+    .title-banner{
+        width: 100%;
+        left: 40px;
+        bottom: 250px;
+        /* transform: translate(-50%,0); */
+    }
+    .title-banner p{
+        font-size: 20px;
+    }
+    .title-banner h2{
+        font-size: 50px;
+        font-family: yeseve;
+    }
+    .des-banner{
+        position: absolute;
+        left: 64px;
+        bottom: 120px;
+        font-family: dosis-medium;
+        font-size: 24px;
+    }
   }
+  
