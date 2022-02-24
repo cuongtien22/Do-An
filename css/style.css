@@ -596,7 +596,32 @@ footer{
 	color: white;
 	padding: 24px 0;
 }
+/* Event */
+.ten-cuoc-thi a{
+	font-family: yeseve;
+	text-decoration: none;
+	color: #E2B051;	
+}
 
-
-
+.sap-dien-ra{
+    background-color: grey;
+    width: 245px;
+    height: 80px;
+    display: flex;
+}
+.select-dien-ra{
+    border:none;
+    outline: none;
+}
+.event{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    padding-top: 12px;
+}
+@media screen and (max-width: 414px) {
+	.ten-cuoc-thi a{
+		font-size: 22px;	
+	}
+}
 

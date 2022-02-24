@@ -93,22 +93,7 @@ body{
     width: 428px;
     height: 255px;
 }
-.sap-dien-ra{
-    background-color: grey;
-    width: 245px;
-    height: 80px;
-    display: flex;
-}
-.select-dien-ra{
-    border:none;
-    outline: none;
-}
-.event{
-    border-top: 1px solid #272727;
-    border-bottom: 1px solid #272727;
-    padding-bottom: 20px;
-    padding-top: 12px;
-}
+
 .qc-home{
     padding: 110px 0;
     /* height: 858px; */
