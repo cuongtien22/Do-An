@@ -31,9 +31,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-header
-{
-	background-color:#464646;
+body{
+	background-color: #272727;
+	color: white;
 }
 section
 {
@@ -104,24 +104,13 @@ section
 	width: 1px;
 	height: 30px;
 }
-.row64
-{
-	display: flex;
-	flex-wrap: wrap;
-}
+
 .row
 {
 	display: flex;
 	flex-wrap: wrap;
 }
-.row1
-{
-	display: flex;
-	flex-wrap: wrap;
-	background-color: #464646;
-	padding-top: 4px;
-	padding-bottom: 4px;
-}
+
 .iconright ion-icon
 {
 	font-size: 32px;
@@ -191,7 +180,10 @@ tr
 	margin-bottom: 64px;
 }
 header{
-	padding: 32px 0;
+	padding: 20px 0;
+}
+.logo img{
+	width: 48px;
 }
 .menu
 {

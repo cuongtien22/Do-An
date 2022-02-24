@@ -11,16 +11,20 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/owl/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl/owl.theme.default.css">
 </head>
 
 <body>
 	<div id="wrapper">
 		<header>
 			<div class="container-lg">
-				<div class="row bg-primary">
+				<div class="row align-items-center">
 					<div class="col-3">
 						<div class="logo">
-							<a href="#">My Logo</a>
+							<a href="index.html">
+								<img src="image/logo desktop.png" alt="">
+							</a>
 						</div>
 					</div>
 					<div class="col-9">
@@ -31,7 +35,7 @@
 							<a href="#">KHÓA HỌC</a>
 							<a href="#">ĐĂNG NHẬP</a>
 						</nav>
-					</div>
+					</div> 
 				</div>
 			</div>
 		</header>
@@ -39,12 +43,12 @@
 		<main>
 			<section class="banner">
 				<div class="container-fluid">
-					<div class="content-banner fade">
+					<div class="content-banner owl-carousel">
 						<div class="items-img">
-							<img src="image/image 75.png" alt="">
+							<div class="bg-banner bg-1"></div>
 						</div>
 						<div class="items-img">
-							<img src="image/image 229.png" alt="">
+							<div class="bg-banner bg-2"></div>
 						</div>
 					</div>
 				</div>
@@ -545,13 +549,27 @@
 			arrows: false
 		});
 
-		$('.fade').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear'
-});
+	</script>
+	<!-- owl -->
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    // margin:10,
+    nav:true,
+	dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
 	</script>
 </body>
 

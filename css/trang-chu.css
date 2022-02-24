@@ -1,14 +1,7 @@
 body{
     background-color: #272727;
 }
-.banner{
-    height: 799px;
-    background-color: grey;
-    overflow: hidden;
-}
-.content-banner img{
-    width: 100%;
-}
+
 .feature-art{
     padding: 110px 0;
 }
@@ -128,3 +121,33 @@ body{
     /* margin-top: 24px !important; */
     /* position: relative !important; */
 /* } */
+/* slide banner */
+/* slider */
+.banner{
+    height: 100vh;
+    /* background-color: grey; */
+    overflow: hidden;
+}
+.content-banner img{
+    width: 100%;
+}
+.bg-banner{
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+.bg-1{
+    background-image: url("../image/image\ 75.png");
+}
+.bg-2{
+    background-image: url("../image/image\ 229.png");
+}
+@media screen and (max-width:414px) {
+    .bg-banner{
+        object-fit: cover;
+        background-size: cover;
+        background-position:-850px center;
+    }
+  }
