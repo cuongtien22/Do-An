@@ -59,7 +59,7 @@
     text-decoration: none;
     color: #272727;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
     .main-khampha{
         display: block !important;
         height: 100% !important;
