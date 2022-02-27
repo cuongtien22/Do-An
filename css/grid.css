@@ -131,6 +131,9 @@ body{
 {
 	justify-content:flex-start;
 }
+.gy-12>[class*="col-"]{
+	padding:12px 0 !important;
+}
 /*align-self*/
 .align-s-center
 {

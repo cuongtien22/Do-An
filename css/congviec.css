@@ -1,0 +1,30 @@
+.search-cv{
+    padding: 80px 0;
+}
+.row>[class*="col-"]{
+    padding: 12px;
+}
+.cv-studio-khac{
+    padding: 80px 0;
+}
+.hoa-si{
+    padding-bottom: 80px;
+}
+.cv-studio-khac h4{
+    text-align: center;
+}
+.card2
+{
+	/* height: 120px; */
+	/* background-color: aquamarine; */
+    background: #F1F0EB;
+    color: #464646;
+}
+.cty{
+	width: 75px;
+	height: 75px;
+	background-color: burlywood;
+}
+.title-cv{
+    margin-bottom: 8px;
+}
