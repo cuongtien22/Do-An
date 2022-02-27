@@ -58,10 +58,53 @@ section
 	margin: 0 auto;
 	padding: 0 12px;
 }
-.container-banner{
-	max-width: 1440px;
+.container-quangcao{
+	/* max-width: 1440px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0; */
+
+}
+.container-quangcao img{
+	width: 100%;
+}
+.container-banner img{
+	width: 100%;
+}
+.feature-kp2{
+	overflow: hidden;
+	
+}
+.feature-kp{
+	overflow: hidden;
+	
+}
+@media screen and (max-width: 414px) {
+	.container-quangcao{
+		height: 175px;
+		position: relative;
+	}
+	.container-quangcao img{
+		width: auto;
+		height: 100%;
+		position: absolute;
+		left: -600px;
+	}
+	.i-khampha img{
+		width: 100%;
+		height: auto;
+	}
+	.feature-kp2{
+		height: 490px;
+	}
+	.feature-kp img{
+		width: 100%;
+	}
+	.banner-content{
+		height: 100% !important;
+	}
+	.banner-content img{
+		height: 100% !important;
+	}
 }
 .row{
 	display: flex;
@@ -234,13 +277,18 @@ header{
 .button a
 {
 	text-decoration: none;
-	color: #272727;
+	color: white;
 	margin-top: 16px;
 }
 .button
 {
 	width: 180px;
 	height: 50px;
+	background-color: #A23C26;
+	color: white;
+}
+.btn-xem-them{
+	background-color: #A23C26 !important;
 }
 .button1
 {
@@ -299,9 +347,9 @@ header{
 	background-color: aqua;
 }
 .banner-content{
-	height: 520px;
-	background-color: grey;
-	border-radius: 10px;
+	/* height: 520px; */
+	/* background-color: grey; */
+	/* border-radius: 10px; */
 	overflow: hidden;
 }
 .quangcao
