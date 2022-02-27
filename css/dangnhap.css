@@ -140,20 +140,7 @@ form.example input[type=text] {
   height: 50px;
 	color: #464646;
 }
-input[type="password"] {
-      width:100%;
-	  height: 31px;
-      box-sizing: border-box;
-      outline:none;
-	  border: none;
-	  border-bottom: 3px solid #464646 ;
-      padding: 8px 8px;
-      transition:0.6s ease-in-out;
-	  font-size:18px;
-	  font-family: dosis-regular;
-	background-color: none;
-	color: #464646;
-    }
+
 form.example .button7 {
   float: left;
   width: 10%;
@@ -390,4 +377,66 @@ input {
 }
 .form3 a {
 	color: #272727;
+}
+.container1{
+  position: relative;
+}
+.iconright{
+  position: absolute;
+  right: -60px;
+  top: 50px;
+  z-index: 1000;
+}
+.relative{
+  position: relative;
+}
+@media screen and (max-width: 414px) {
+  .login-mb{
+    background-color: #F1F0EB;
+    padding: 50px 42px;
+    color: #272727;
+  }
+  .login-mb .tab button{
+    font-family: Dosis;
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 23px;
+margin: 0 8px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+background: none;
+border: none;
+  }
+  .login-mb .active{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+  }
+  .login-mb .tab{
+    margin-bottom: 55px;
+  }
+  .signin-mb input{
+    width:100%;
+	  height: 31px;
+      box-sizing: border-box;
+      outline:none;
+	  border: none;
+	  border-bottom: 1px solid #464646 ;
+      padding: 8px 0px;
+      transition:0.6s ease-in-out;
+	  font-size:18px;
+	  font-family: dosis-regular;
+	background: none;
+  }
+  .signin-mb a{
+    font-family: Dosis;
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+text-decoration: none;
+color: #272727;;
+display: block;
+margin-top: 48px;
+  }
 }
