@@ -124,5 +124,9 @@
     .img-big img{
         width: 100%;
     }
+	.display-none
+	{
+		display: none;
+	}
 }
 

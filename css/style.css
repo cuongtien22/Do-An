@@ -58,6 +58,11 @@ section
 	margin: 0 auto;
 	padding: 0 12px;
 }
+.container-banner{
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0;
+}
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -229,14 +234,15 @@ header{
 .button a
 {
 	text-decoration: none;
-	color: #F1F0EB;
+	color: #272727;
 	margin-top: 16px;
 }
 .button
 {
 	width: 180px;
 	height: 50px;
-	background-color: #464646;
+	background-color: #f1f0eb;
+	color: #27272;
 }
 .button1
 {
@@ -351,7 +357,7 @@ header{
 	/* padding: 48px 0; */
 }
 .find{
-	background-color: grey;
+	background-color: #F1F0EB;
 	position: relative;
 }
 .find img{
@@ -359,10 +365,11 @@ header{
 	top: 10px;
 	width: 30px;
 	height: 30px;
+	left: 10px;
 }
 .find input{
 	border: none;
-	background-color: grey;
+	background-color: #F1F0EB;
 	padding: 20px 0;
 	height: 52px;
 }
@@ -575,6 +582,7 @@ footer{
 	font-size: 32px;
 	color: #F1F0EB;
 	text-decoration: none;
+	font-family: yeseva;
 }
 .menu-footer ul{
 	list-style: none;

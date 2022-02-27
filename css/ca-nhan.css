@@ -96,7 +96,7 @@
     padding: 20px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
 	.main-cn{
 		display: block !important;
 	}

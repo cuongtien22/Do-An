@@ -8,7 +8,7 @@ body{
 }
 .bg-primary
 {
-	background-color: #464646;
+	background-color: #272727;
 }
 .bg-secondary
 {
@@ -55,6 +55,10 @@ body{
 {
 	font-size: 32px;
 	font-family: yeseve;
+}
+.text-primary
+{
+	color:#272727;
 }
 .text-16-rg
 {
@@ -961,7 +965,10 @@ body{
 {
 	padding-right: 224px;
 }
-
+.mb-110
+{
+	margin-bottom: 110px;
+}
 @media screen and (max-width: 390px) {
     .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
 		width: 100% !important;
