@@ -90,13 +90,12 @@
     padding: 20px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 428px) {
 	.main-cn{
 		display: block !important;
 	}
     .item-cn{
 		width: 80% !important;
-		height: 393px;
 		margin-bottom: 24px;
 	}
     .hide-mobile{
@@ -105,4 +104,39 @@
     .right-mobile{
        margin-left: 70px;
     }
+	.ml-sm-124
+	{
+		margin-left: 124px;
+	}
+	.ml-sm-160
+	{
+		margin-left: 160px;
+	}
+	.canhan
+	{
+		padding: 64px 0;
+	}
+	.grid-cn
+	{
+		padding: 48px 0;
+	}
+	
 }
+@media screen and (max-width: 1024px) {
+	.ml-tb-43
+	{
+		margin-left: 43px;
+	}
+	.ml-tb-85
+	{
+		margin-left: 85px;
+	}
+	
+}
+
+
+
+
+
+
+
