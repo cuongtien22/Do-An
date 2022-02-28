@@ -130,18 +130,18 @@ section
 }
 .follow
 {
-	background-color: #464646;
-	color:#F1F0EB; 
+	background-color: #F1F0EB;
+	color:#272727; 
 }
 .message
 {
-	background-color: #464646;
-	color:#F1F0EB;
+	background-color: #F1F0EB;
+	color:#272727;
 }
 .artist
 {
-	background-color:#F1F0EB;
-	color: #464646;
+	background-color: #A23C26;
+	color: #F1F0EB;
 	height: 21px;
 	width: 67px;
 	font-family: dosis-medium;
@@ -328,7 +328,6 @@ header{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	background-color: aqua;
 	position: relative;
 	top: 50%;
 }
