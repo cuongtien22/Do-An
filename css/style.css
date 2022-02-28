@@ -110,6 +110,10 @@ section
 	display: flex;
 	flex-wrap: wrap;
 }
+.row1{
+	display: flex;
+	flex-wrap: wrap;
+}
 .browse
 {
 	text-align: center;
@@ -258,7 +262,10 @@ header{
 .img-card
 {
 	height: 242px;
-	background-color: aqua;
+}
+.img-card img
+{
+	width: 100%;
 }
 .img-card1
 {
@@ -288,26 +295,26 @@ header{
 }
 .button1
 {
-	width: 189px;
 	height: 50px;
-	background-color: #464646;
+	background-color: #A23C26;
 }
 .button1 a
 {
 	text-decoration: none;
-	color: #F1F0EB;
+	color: #272727;
+	background-color: #F1F0EB;
 	margin-top: 16px;
 }
 .button2
 {
-	width: 207px;
 	height: 50px;
-	background-color: #464646;
+	background-color: #A23C26;
 }
 .button2 a
 {
 	text-decoration: none;
-	color: #F1F0EB;
+	color: #272727;
+	background-color: #F1F0EB;
 	margin-top: 16px;
 }
 .button3
@@ -330,6 +337,10 @@ header{
 	border-radius: 50%;
 	position: relative;
 	top: 50%;
+}
+.text-button
+{
+	color: #F1F0EB;
 }
 .pc-2{
 	height: 350px;
@@ -410,12 +421,12 @@ header{
 }
 .find input{
 	border: none;
-	background-color: #F1F0EB;
+	background-color: #272727;
 	padding: 20px 0;
 	height: 52px;
 }
 .find1{
-	background-color: #464646;
+	background-color: #F1F0EB;
 	height: 50px;
 	/* width: 624px; */
 }
