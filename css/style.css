@@ -420,6 +420,11 @@ header{
 	/* width: 624px; */
 }
 
+.item-cn img
+{
+	width: 100%;
+}
+
 
 .anh{
 	background-color: aquamarine;

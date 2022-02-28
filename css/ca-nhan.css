@@ -65,12 +65,10 @@
     justify-content: space-between;
 }
 .item-middle-l{
-    background-color: grey;
     height: 425px;
     width: calc(55% - 2px);
 }
 .item-middle-r{
-    background-color: grey;
     height: 425px;
     width: calc(45% - 2px);
 }

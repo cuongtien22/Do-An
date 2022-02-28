@@ -183,9 +183,36 @@
 	}
 	.container-lg-tb
 	{
-		max-width: 742px;
+		max-width: 922px;
     	margin: 0 auto;
 	}
+	.menu a {
+    text-decoration: none;
+    color: #F1F0EB;
+    border-bottom: 3px solid transparent;
+    font-size: 16px;
+    margin-left: 50px;
+    transition: all 0.5s linear;
+	}
+	.item-middle-l img
+	{
+		width: 100%;
+	}
+	.item-middle-r img
+	{
+		width: 100%;
+	}
+	.d-tb-block
+	{
+		display: block;
+	}
+	.d-tb-none
+	{
+		display: none;
+	}
+	
+		
+}
 	
 }
 
