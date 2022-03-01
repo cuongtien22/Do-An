@@ -27,3 +27,54 @@
 .title-cv{
     margin-bottom: 8px;
 }
+@media screen and (max-width: 1024px){
+	.text-24{
+		font-size: 16px;
+	}
+	.pt-1-tb
+	{
+		padding-top: 4px;
+	}
+	.justify-center-tb
+	{
+		justify-content: center;
+	}
+	.cty{
+	width: 65px;
+	height: 65px;
+}
+	.row>[class*="col-4"]{
+    padding: 0px;
+}
+	.row>[class*="col-8"]{
+    padding: 0px;
+}
+}
+@media screen and (max-width: 428px)
+{
+	.row>[class*="col-4"]{
+    padding: 12px;
+	}
+	.search-cv
+	{
+		padding: 48px 0;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	

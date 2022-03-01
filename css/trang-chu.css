@@ -265,7 +265,7 @@ img:hover{
     right: -24px;;
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:428px) {
     .bg-banner{
         object-fit: cover;
         background-size: cover;

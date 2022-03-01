@@ -1,6 +1,12 @@
 #wrapper{
     background-color: #272727;
 }
+.container-canhan
+{
+	max-width: 1440px;
+	margin: 0 auto;
+	background-image: url("../image/Rectangle 232 (1).png")
+}
 .canhan{
     padding: 82px 0;
     text-align: center;
@@ -89,7 +95,14 @@
     text-decoration: none;
     padding: 20px;
 }
-
+.ml-159
+{
+	margin-left: 159px;
+}
+.ml-198
+{
+	margin-left: 198px;
+}
 @media screen and (max-width: 428px) {
 	.main-cn{
 		display: block !important;
@@ -120,18 +133,31 @@
 	{
 		padding: 48px 0;
 	}
-	
+	.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+	.container
+	{
+		background-image: url("../image/Rectangle 232 (2).png"));
+	}
 }
 @media screen and (max-width: 1024px) {
-	.ml-tb-43
+	.ml-tb-90
 	{
-		margin-left: 43px;
+		margin-left: 90px;
 	}
-	.ml-tb-85
+	.ml-tb-130
 	{
-		margin-left: 85px;
+		margin-left: 130px;
 	}
-	
 }
 
 
