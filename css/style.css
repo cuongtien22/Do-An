@@ -253,15 +253,22 @@ header{
 	color: #F1F0EB;
 	border-bottom: 3px solid transparent;
 	font-size: 16px;
-	margin-left: 96px;
+	margin-left: 56px;
 	transition: all 0.5s linear;
 }
 .menu a:hover
 {
 	border-bottom: 3px solid #F1F0EB;
 }
-
-
+.right-menu{
+	margin-left: 56px !important;
+}
+.right-menu a{
+	margin-left: 24px !important;
+}
+.art{
+	cursor: pointer;
+}
 
 .img-card
 {
