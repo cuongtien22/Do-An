@@ -269,6 +269,24 @@ header{
 .art{
 	cursor: pointer;
 }
+.float-button{
+	background-color: #F1F0EB;
+	position: fixed;
+	top: 193px;
+	z-index: 9999999;
+	padding: 32px 12px;
+	display: flex;
+	flex-direction: column;
+}
+.float-button img{
+	width: 32px;
+}
+.float-button li{
+	margin-bottom: 32px ;
+}
+.float-button li:last-child{
+	margin-bottom: 0 ;
+}
 
 .img-card
 {
@@ -689,9 +707,16 @@ footer{
 .ten-cuoc-thi a{
 	font-family: yeseve;
 	text-decoration: none;
-	color: #E2B051;	
+	color: #E2B051;
+	
 }
-
+.ten-cuoc-thi{
+	transition: 0.2s linear;
+}
+.ten-cuoc-thi:hover{
+	transform: scale(1.05);
+	/* opacity: 0.5; */
+}
 .sap-dien-ra{
     background-color: grey;
     width: 245px;
@@ -707,6 +732,12 @@ footer{
     border-bottom: 1px solid white;
     padding-bottom: 20px;
     padding-top: 12px;
+}
+.card-big{
+	cursor: pointer;
+}
+.card{
+	cursor: pointer;
 }
 @media screen and (max-width: 414px) {
 	.ten-cuoc-thi a{
