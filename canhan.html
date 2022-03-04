@@ -1,19 +1,31 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<meta charset="utf-8">
+	<title>Cá nhân | Adeptus</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<link rel="icon" type="image/x-icon" href="image/logo 1.png">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/ca-nhan.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
 </head>
 
 <body>
 	<div id="wrapper">
+		<div class="float-button d-m-none">
+			<ul>
+				<li><a href="canhan.html"><img src="image/personal.svg"></a></li>
+				<li><a href="#"><img src="image/cart.svg"></a></li>
+				<li><a href="#"><img src="image/ticket.svg"></a></li>
+				<li><a href="#"><img src="image/chatr.svg"></a></li>
+			</ul>
+		</div>
 		<header>
-			<div class="container-lg container-lg-tb">
+			<div class="container-lg container-lg-tb on">
 				<div class="row align-items-center">
 					<div class="col-3 col-sm-3">
 						<div class="logo">
@@ -23,55 +35,59 @@
 						</div>
 					</div>
 					<div class="col-9 col-sm-9">
-						<nav class="menu">
-							<a href="#">TRANG CHỦ</a>
-							<a href="#">KHÁM PHÁ</a>
-							<a href="#">CÔNG VIỆC</a>
+						<nav class="menu" id="myLinks">
+							<a href="index.html">TRANG CHỦ</a>
+							<a href="khampha.html">KHÁM PHÁ</a>
+							<a href="congviec.html">CÔNG VIỆC</a>
 							<a href="#">KHÓA HỌC</a>
-							<a href="#">ĐĂNG NHẬP</a>
+							<a href="dangnhap.html">ĐĂNG NHẬP</a>
+							<ul class="right-menu row">
+								<a href="#"><img src="image/noti.png" alt=""></a>
+								<a href="#"><img src="image/heart.png" alt=""></a>
+							</ul>
+							<a href="javascript:void(0);" onclick="myFunction()" class="close d-none d-m-block">X</a>
 						</nav>
+
 						<div class="nav-mb text-sm-right">
-							<a href=""><img src="image/navmb.png" alt=""></a>
+							<a href="javascript:void(0);" onclick="myFunction()"><img src="image/navmb.png" alt=""></a>
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
+		<!--		main-->
 		<main>
-<!--			section1-->
+			<!--			section1-->
 			<section>
 				<div class="container-canhan">
 					<div class="row justify-center">
 						<div class="col-4">
 							<div class="nen">
-							<div class="canhan">
-								<div class="anhcanhan ml-159 mb-5 ml-tb-90 display-none">
-									<img src="image/Ellipse 1.png" alt="">
-								</div>
-								<div class="anhcanhan d-none ml-sm-124 display-block">
-									<img src="image/Ellipse 1.png" alt="">
-								</div>
-								<span class="text-30-semibold">USERNAME</span>
-								<div class="artist mt-1 mb-3 ml-198 pt-1 ml-tb-130 mt-2 mb-2 display-none">
-									ARTIST</div>
-								<div class="artist mt-1 mb-3 ml-140 pt-1 mt-2 mb-2 d-none ml-sm-160 display-block">
-									ARTIST</div>
-								
-								<span class="d-tb-none">Tôi là họa sĩ concept game, environment <br>artist cho lĩnh vực game và animation. </span>
-								<span class="d-none d-tb-block">Tôi là họa sĩ concept game, environment artist <br>cho lĩnh vực game và animation. </span>
-								<div class="row justify-center mt-2">
+								<div class="canhan">
+									<div class="anhcanhan">
+										<img src="image/Ellipse 1.png" alt="">
+									</div>
+									<span class="text-30-semibold name">FELICIA CHEN</span>
+									<div class="artist">ARTIST</div>
+
+									<span class="infor-artist">Tôi là họa sĩ concept game, environment <br>artist cho
+										lĩnh
+										vực game và animation. </span>
+
+									<div class="row justify-center mt-2">
 										<div class="follow p-3">FOLLOW</div>
 										<div class="message p-3">MESSAGE</div>
 									</div>
-							</div>
-							
 								</div>
-								
+
+							</div>
+
 						</div>
 					</div>
 				</div>
 			</section>
-<!--			section2-->
+			<!--			section2-->
 			<section class="sub-menu">
 				<div class="conatainer-fluid">
 					<div class="sub-menu">
@@ -104,7 +120,7 @@
 						<div class="item-cn cn-2-sm right-mobile display-block d-none">
 							<img src="image/image 2-1-sm.png" alt="">
 						</div>
-						
+
 						<div class="item-cn cn-3 display-none">
 							<img src="image/image 3-1.png" alt="" class="d-tb-none">
 							<img src="image/image 3-1-tb.png" alt="" class="d-none d-tb-block">
@@ -124,8 +140,8 @@
 							<img src="image/image 6-1.png" alt="" class="d-tb-none">
 							<img src="image/image 6-1-tb.png" alt="" class="d-tb-block d-none">
 						</div>
-						</div>
-					
+					</div>
+
 					<div class="main-middle hide-mobile">
 						<div class="item-middle-l">
 							<img src="image/image trai.png" alt="" class="d-tb-none">
@@ -162,11 +178,34 @@
 							<img src="image/image 6-2-tb.png" alt="" class="d-tb-block d-none">
 						</div>
 					</div>
-					
+
+				</div>
+				<!-- Mobile -->
+				<div class="container d-none d-m-block">
+					<div class="row">
+						<div class="col-12">
+							<div class="canhan-card-mb">
+								<img src="image/fix-mb.png" alt="" class="">
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="canhan-card-mb custom-left">
+								<img src="image/fix-mb2.png" alt="" class="">
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="canhan-card-mb">
+								<img src="image/fix-mb-3.png" alt="" class="">
+							</div>
+						</div>
+
 					</div>
+					<!-- Mobile -->
+				
+				</div>
 				<div class="more">
 					<a class="btn-more" href="#">&or;</a>
-					<a href="#">Xem thêm</a>
+					<a href="#" style="text-decoration:none">&nbsp;</a>
 				</div>
 			</section>
 		</main>
@@ -218,7 +257,7 @@
 						</div>
 					</div>
 				</div>
-	
+
 				<div class="row justify-end">
 					<div class="col-2 col-tb-3">
 						<ul class="social-icon row">
@@ -230,11 +269,18 @@
 					</div>
 				</div>
 			</div>
+			<div class="copyright">
+				Copyright Họ Nguyễn
+			</div> 
 		</footer>
-	
-		<div class="copyright">
-			Copyright Họ Nguyễn
-		</div>
+
+		
 	</div>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
+
 </html>

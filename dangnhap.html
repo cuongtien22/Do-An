@@ -3,7 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Untitled Document</title>
+	<title>Đăng nhập | Adeptus</title>
+	<link rel="icon" type="image/x-icon" href="image/logo 1.png">
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -13,8 +14,16 @@
 
 <body>
 	<div id="wrapper">
+		<div class="float-button d-m-none">
+			<ul>
+				<li><a href="canhan.html"><img src="image/personal.svg"></a></li>
+				<li><a href="#"><img src="image/cart.svg"></a></li>
+				<li><a href="#"><img src="image/ticket.svg"></a></li>
+				<li><a href="#"><img src="image/chatr.svg"></a></li>
+			</ul>
+		</div>
 		<header>
-			<div class="container-lg container-lg-tb">
+			<div class="container-lg container-lg-tb on">
 				<div class="row align-items-center">
 					<div class="col-3 col-sm-3">
 						<div class="logo">
@@ -24,17 +33,22 @@
 						</div>
 					</div>
 					<div class="col-9 col-sm-9">
-						<div class="menu1">
-							<nav class="menu">
-								<a href="#">TRANG CHỦ</a>
-								<a href="#">KHÁM PHÁ</a>
-								<a href="#">CÔNG VIỆC</a>
-								<a href="#">KHÓA HỌC</a>
-								<a href="#">ĐĂNG NHẬP</a>
-							</nav>
-							<div class="nav-mb text-sm-right">
-								<a href=""><img src="image/navmb.png" alt=""></a>
-							</div>
+						<nav class="menu" id="myLinks">
+							<a href="index.html">TRANG CHỦ</a>
+							<a href="khampha.html">KHÁM PHÁ</a>
+							<a href="congviec.html">CÔNG VIỆC</a>
+							<a href="#">KHÓA HỌC</a>
+							<a class="active-menu" href="dangnhap.html">ĐĂNG NHẬP</a>
+							<ul class="right-menu row">
+								<a href="#"><img src="image/noti.png" alt=""></a>
+								<a href="#"><img src="image/heart.png" alt=""></a>
+							</ul>
+							<a href="javascript:void(0);" onclick="myFunction()" class="close d-none d-m-block">X</a>
+						</nav>
+	
+						<div class="nav-mb text-sm-right">
+							<a href="javascript:void(0);" onclick="myFunction()"><img src="image/navmb.png" alt=""></a>
+							
 						</div>
 					</div>
 				</div>
@@ -197,11 +211,12 @@
 					</div>
 				</div>
 			</div>
+			<div class="copyright">
+				Copyright Họ Nguyễn
+			 </div>
 		</footer>
 
-		<div class="copyright">
-			Copyright Họ Nguyễn
-		 </div>
+	
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 		<script>

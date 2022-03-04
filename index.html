@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Adeptus | Home</title>
+	<link rel="icon" type="image/x-icon" href="image/logo 1.png">
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -18,6 +19,14 @@
 </head>
 
 <body>
+	<div class="float-button d-m-none">
+		<ul>
+			<li><a href="canhan.html"><img src="image/personal.svg"></a></li>
+			<li><a href="#"><img src="image/cart.svg"></a></li>
+			<li><a href="#"><img src="image/ticket.svg"></a></li>
+			<li><a href="#"><img src="image/chatr.svg"></a></li>
+		</ul>
+	</div>
 	<div id="wrapper">
 		<header>
 			<div class="container-lg container-lg-tb on">
@@ -30,15 +39,22 @@
 						</div>
 					</div>
 					<div class="col-9 col-sm-9">
-						<nav class="menu">
-							<a href="#">TRANG CHỦ</a>
-							<a href="#">KHÁM PHÁ</a>
-							<a href="#">CÔNG VIỆC</a>
+						<nav class="menu" id="myLinks">
+							<a class="active-menu" href="index.html">TRANG CHỦ</a>
+							<a href="khampha.html">KHÁM PHÁ</a>
+							<a href="congviec.html">CÔNG VIỆC</a>
 							<a href="#">KHÓA HỌC</a>
-							<a href="#">ĐĂNG NHẬP</a>
+							<a href="dangnhap.html">ĐĂNG NHẬP</a>
+							<ul class="right-menu row">
+								<a href="#"><img src="image/noti.png" alt=""></a>
+								<a href="#"><img src="image/heart.png" alt=""></a>
+							</ul>
+							<a href="javascript:void(0);" onclick="myFunction()" class="close d-none d-m-block">X</a>
 						</nav>
+
 						<div class="nav-mb text-sm-right">
-							<a href=""><img src="image/navmb.png" alt=""></a>
+							<a href="javascript:void(0);" onclick="myFunction()"><img src="image/navmb.png" alt=""></a>
+							
 						</div>
 					</div>
 				</div>
@@ -52,7 +68,8 @@
 						<div class="items-img">
 							<!-- content banner -->
 							<div class="bg-banner bg-1">
-								<div data-aos-delay="200" data-aos-duration="2000" data-aos="fade-left" class="title-banner ">
+								<div data-aos-delay="200" data-aos-duration="2000" data-aos="fade-left"
+									class="title-banner ">
 									<p>Janna Sophia</p>
 									<h2>THE MIDDAY <br>
 										MAN</h2>
@@ -66,13 +83,15 @@
 						<div class="items-img">
 							<div class="bg-banner bg-2">
 								<!-- content banner -->
-								<div class="title-banner">
-									<p>Janna Sophia</p>
-									<span class="bg-text"><h2>THE MIDDAY <br>
-										MAN</h2></span>
+								<div class="title-banner" data-aos-delay="200" data-aos-duration="2000" data-aos="fade-left">
+									<p>Demeter Wu</p>
+									<span class="bg-text">
+										<h2>READY FOR <br>
+											THANK GIVING?</h2>
+									</span>
 								</div>
-								<div class="des-banner">
-									“ Một tác phẩm hoàn chỉnh luôn <br> được tạo nên từ cảm xúc. “
+								<div class="des-banner" data-aos="flip-left" class="des-banner">
+									“ Nếu màu sắc là những chiếc bánh,<br> nhân vật là những tách trà. Thì niềm<br> vui của tôi chính là buổi tiệc trà “
 								</div>
 								<!-- content banner -->
 							</div>
@@ -87,7 +106,7 @@
 					<h1 class="h4 text-center">FEATURED ARTWORK</h1>
 					<div class="feature-art-ct">
 
-						<div class="art-1 art">
+						<div class="art-1 art" data-aos="fade-right">
 							<div class="feature-img-art feature-img-art1">
 								<img src="image/ft1.png" alt="">
 							</div>
@@ -97,7 +116,7 @@
 							</div>
 						</div>
 						<!-- item 1 -->
-						<div class="art-2 art">
+						<div class="art-2 art" data-aos="fade-left">
 							<div class="feature-img-art feature-img-art2">
 								<img src="image/ft2.png" alt="">
 							</div>
@@ -106,7 +125,7 @@
 								<span>Felicia Chen</span>
 							</div>
 						</div>
-						<div class="art-3 art">
+						<div class="art-3 art" data-aos="flip-up">
 							<div class="feature-img-art feature-img-art3">
 								<img src="image/ft4.png" alt="">
 							</div>
@@ -116,7 +135,7 @@
 								<span>Sean Budanio</span>
 							</div>
 						</div>
-						<div class="art-4 art">
+						<div class="art-4 art" data-aos="fade-left">
 							<div class="feature-img-art feature-img-art4">
 								<img src="image/ft3.png" alt="">
 							</div>
@@ -125,7 +144,7 @@
 								<span>Dominik Mayer</span>
 							</div>
 						</div>
-						<div class="art-5 art">
+						<div class="art-5 art" data-aos="fade-right">
 							<div class="feature-img-art feature-img-art5">
 								<img src="image/ft5.png" alt="">
 							</div>
@@ -134,7 +153,7 @@
 								<span>Demeter Wu</span>
 							</div>
 						</div>
-						<div class="art-6 art">
+						<div class="art-6 art" data-aos="fade-left">
 							<div class="feature-img-art feature-img-art6">
 								<img src="image/ft7.png" alt="">
 							</div>
@@ -143,7 +162,7 @@
 								<span>Ami Thompson</span>
 							</div>
 						</div>
-						<div class="art-7 art">
+						<div class="art-7 art" data-aos="fade-right">
 							<div class="feature-img-art feature-img-art7">
 								<img src="image/ft6.png" alt="">
 							</div>
@@ -152,7 +171,7 @@
 								<span>Demeter Wu</span>
 							</div>
 						</div>
-						<div class="art-8 art">
+						<div class="art-8 art" data-aos="fade-left">
 							<div class="feature-img-art feature-img-art8">
 								<img src="image/ft8.png" alt="">
 							</div>
@@ -269,7 +288,7 @@
 		</div>
 		<!--					event-->
 		<div class="container">
-			<div class="event mt-9 mb-9">
+			<div class="event mt-9 mb-9 " data-aos="zoom-in">
 
 				<div class="row">
 					<div class="col-2 col-sm-2">
@@ -287,7 +306,7 @@
 
 			</div>
 			<!-- cuoc thi -->
-			<div class="event mt-9 mb-9">
+			<div class="event mt-9 mb-9" data-aos="zoom-in">
 
 				<div class="row">
 					<div class="col-2 col-sm-2">
@@ -305,7 +324,7 @@
 
 			</div>
 			<!-- cuoc thi -->
-			<div class="event mt-9 mb-9">
+			<div class="event mt-9 mb-9" data-aos="zoom-in">
 
 				<div class="row">
 					<div class="col-2 col-sm-2">
@@ -339,7 +358,7 @@
 	<section class="qc-home">
 		<div class="container">
 			<div class="row all-big-card justify-center">
-				<div class="col-6 align-s-end align-s-m-top">
+				<div class="col-6 align-s-end align-s-m-top" data-aos="fade-right">
 					<div class="card-big">
 						<div class="card-bg card-bg-1">
 							<div class="content-card-bg content-card-sm">
@@ -356,7 +375,7 @@
 					</div>
 				</div>
 				<div class="col-6">
-					<div class="card-big text-align-right">
+					<div class="card-big text-align-right" data-aos="fade-left">
 						<div class="card-bg card-bg-2">
 							<div class="content-card-bg content-card-sm flex-reverse">
 								<img class="d-m-none" src="image/arrow.png">
@@ -385,7 +404,7 @@
 			</div>
 			<!-- desktop -->
 			<div class="row pt-9 d-m-none">
-				<div class="col-4 px-4">
+				<div class="col-4 px-4" data-aos="fade-right">
 					<div class="card">
 						<div class="img-card">
 							<img src="image/khoahoc-1.png" alt="">
@@ -405,7 +424,7 @@
 					</div>
 				</div>
 				<!-- card -->
-				<div class="col-4 px-4">
+				<div class="col-4 px-4" data-aos="fade-right">
 					<div class="card">
 						<div class="img-card">
 							<img src="image/khoahoc-2.png" alt="">
@@ -428,7 +447,7 @@
 					</div>
 				</div>
 				<!-- card -->
-				<div class="col-4 px-4">
+				<div class="col-4 px-4" data-aos="fade-right">
 					<div class="card">
 						<div class="img-card">
 							<img src="image/khoahoc-3.png" alt="">
@@ -591,12 +610,25 @@
 				</div>
 			</div>
 		</div>
+		<div class="copyright">
+			Copyright Họ Nguyễn
+		</div>
 	</footer>
 
-	<div class="copyright">
-		Copyright Họ Nguyễn
+
 	</div>
-	</div>
+	<!-- Menu -->
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myLinks");
+			if (x.style.width === "100%") {
+				x.style.width = "0";
+			} else {
+				x.style.width = "100%";
+			}
+		}
+	</script>
+
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<!-- Slick -->

@@ -2964,7 +2964,7 @@
 		nav: false,
 		navText: [
 			'<span aria-label="' + 'Previous' + '"></span>',
-			'<span aria-label="' + 'Next' + '"><img src="../image/next.png"></span>'
+			'<span aria-label="' + 'Next' + '"><img src="image/next.png"></span>'
 		],
 		navSpeed: false,
 		navElement: 'button type="button" role="presentation"',

@@ -1,6 +1,3 @@
-#wrapper{
-    background-color: #272727;
-}
 .container-canhan
 {
 	max-width: 1440px;
@@ -10,6 +7,27 @@
 .canhan{
     padding: 82px 0;
     text-align: center;
+    color: #F1F0EB;
+}
+.canhan .name{
+    color: #F1F0EB;
+    letter-spacing: 2.4px;
+    margin: 12px 0;
+    display: block;
+}
+.canhan .infor-artist{
+    margin: 16px 0 18px;
+    display: block;
+}
+.canhan .artist{
+    /* padding: 12px 4px; */
+    background-color: #A23C26;
+    width: 82px;
+    height: 24px;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+    margin: 0 auto;
 }
 .follow{
     margin: 0 5px;
@@ -143,12 +161,43 @@
     left: 50%;
     transform: translateX(-50%);
     color: white;
-}
+    }
 	.container
 	{
-		background-image: url("../image/Rectangle 232 (2).png"));
+		/* background-image: url("../image/Rectangle 232 (2).png"); */
 	}
+    .sub-menu{
+        padding: 0 16px;
+        background-color: transparent;
+        margin-top: 24px;
+    }
+    .sub-menu ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 250px;
+        align-items: center;
+    }
+    .sub-menu ul li{
+        width: 40%;
+        height: 44px;
+        margin-bottom: 28px;
+        background: #F1F0EB;
+    }
+    .sub-menu ul li a{
+        letter-spacing: 0.1em;
+        color: #272727;
+    }
+    .canhan-card-mb{
+        width: 250px;
+        height: 393px;
+        overflow: hidden;
+        margin: 16px 0;
+    }
+    .custom-left{
+        margin-left: auto;
+    }
 }
+
 @media screen and (max-width: 1024px) {
 	.ml-tb-90
 	{
@@ -161,7 +210,9 @@
 }
 
 
-
+.item-cn{
+    overflow: hidden;
+}
 
 
 

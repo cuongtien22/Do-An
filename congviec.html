@@ -4,17 +4,29 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
-
-	<title>Untitled Document</title>
+	
+	<title>Công việc | Adeptus</title>
+	<link rel="icon" type="image/x-icon" href="image/logo 1.png">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/congviec.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+	<div class="float-button d-m-none">
+		<ul>
+			<li><a href="canhan.html"><img src="image/personal.svg"></a></li>
+			<li><a href="#"><img src="image/cart.svg"></a></li>
+			<li><a href="#"><img src="image/ticket.svg"></a></li>
+			<li><a href="#"><img src="image/chatr.svg"></a></li>
+		</ul>
+	</div>
 	<header>
-		<div class="container-lg">
+		<div class="container-lg container-lg-tb on">
 			<div class="row align-items-center">
 				<div class="col-3 col-sm-3">
 					<div class="logo">
@@ -24,15 +36,22 @@
 					</div>
 				</div>
 				<div class="col-9 col-sm-9">
-					<nav class="menu">
-						<a href="#">TRANG CHỦ</a>
-						<a href="#">KHÁM PHÁ</a>
-						<a href="#">CÔNG VIỆC</a>
+					<nav class="menu" id="myLinks">
+						<a href="index.html">TRANG CHỦ</a>
+						<a href="khampha.html">KHÁM PHÁ</a>
+						<a  class="active-menu" href="congviec.html">CÔNG VIỆC</a>
 						<a href="#">KHÓA HỌC</a>
-						<a href="#">ĐĂNG NHẬP</a>
+						<a href="dangnhap.html">ĐĂNG NHẬP</a>
+						<ul class="right-menu row">
+							<a href="#"><img src="image/noti.png" alt=""></a>
+							<a href="#"><img src="image/heart.png" alt=""></a>
+						</ul>
+						<a href="javascript:void(0);" onclick="myFunction()" class="close d-none d-m-block">X</a>
 					</nav>
+
 					<div class="nav-mb text-sm-right">
-						<a href=""><img src="image/navmb.png" alt=""></a>
+						<a href="javascript:void(0);" onclick="myFunction()"><img src="image/navmb.png" alt=""></a>
+						
 					</div>
 				</div>
 			</div>
@@ -58,8 +77,9 @@
 			<div class="container container-tb">
 				<div class="row">
 					<div class="col-7">
-						<div class="find1 p-20">
+						<div class="find">
 							<img src="image/icontimkiem-02.svg" width="32px" alt="">
+							<input type="text">
 						</div>
 					</div>
 					<div class="col-5 pl-2">
@@ -97,8 +117,8 @@
 		<section class="studio">
 			<div class="container container-tb">
 				<span style="font-family: dosis-semibold" class=" h4">STUDIO TIÊU BIỂU</span>
-				<div class="row pt-9 d-tb-none">
-					<div class="col-4">
+				<div class="row pt-9 d-tb-none" data-aos="fade-right">
+					<div class="col-4" >
 						<div class="card">
 							<div class="img-card">
 								<img src="image/unsplash_58c1dnakdRQ.png" alt="">
@@ -193,7 +213,7 @@
 					</div>
 				</div>
 
-				<div class="row pt-9 justify-center-tb">
+				<div class="row pt-9 justify-center-tb d-m-none" data-aos="fade-right">
 					<div class="col-4 d-tb-none">
 						<div class="card">
 							<div class="img-card">
@@ -351,7 +371,7 @@
 					</div>
 				</div>
 
-				<div class="row pt-9 d-m-none">
+				<div class="row pt-9 d-m-none" data-aos="fade-right">
 					<div class="col-4">
 						<div class="card">
 							<div class="img-card">
@@ -509,11 +529,171 @@
 					</div>
 					
 				</div>
+				<!-- Mobile -->
+				<div class="row pt-9 d-none d-m-block slide-mb2">
+					<div class="col-4">
+						<div class="card">
+							<div class="img-card">
+								<img src="image/unsplash_KR84RpMCb0w.png" alt="">
+							</div>
+							<div class="card1 p-5">
+								<div class="row align-items-center">
+									<div class="col-4 col-sm-4">
+										<div class="cty">
+											<img src="image/bee.png" alt="">
+										</div>
+									</div>
+									<div class="col-8 col-sm-8">
+										<div class="text-cty align-end">
+											<div class="text-head-card">
+												<span class="text-18-bold">BEE HOME</span>
+											</div>
+											<div class="diadiem">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hồ Chí Minh</span>
+											</div>
+											<div class="congviec">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hiện có 15 công việc</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-5">
+						<div class="card">
+							<div class="img-card">
+								<img src="image/unsplash_KR84RpMCb0w.png" alt="">
+							</div>
+							<div class="card1 p-5">
+								<div class="row align-items-center">
+									<div class="col-4 col-sm-4">
+										<div class="cty">
+											<img src="image/bee.png" alt="">
+										</div>
+									</div>
+									<div class="col-8 col-sm-8">
+										<div class="text-cty align-end">
+											<div class="text-head-card">
+												<span class="text-18-bold">BEE HOME</span>
+											</div>
+											<div class="diadiem">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hồ Chí Minh</span>
+											</div>
+											<div class="congviec">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hiện có 15 công việc</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="card">
+							<div class="img-card">
+								<img src="image/unsplash_LPWl2pEVGKc.png">
+							</div>
+							<div class="card1 p-5">
+								<div class="row align-items-center">
+									<div class="col-4 col-sm-4">
+										<div class="cty">
+											<img src="image/sky.png" alt="">
+										</div>
+									</div>
+									<div class="col-8 col-sm-8">
+										<div class="text-cty align-end">
+											<div class="text-head-card">
+												<span class="text-18-bold">SKY VFX</span>
+											</div>
+											<div class="diadiem">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hồ Chí Minh</span>
+											</div>
+											<div class="congviec">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hiện có 4 công việc</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-5">
+						<div class="card">
+							<div class="img-card">
+								<img src="image/unsplash_LPWl2pEVGKc.png">
+							</div>
+							<div class="card1 p-5">
+								<div class="row align-items-center">
+									<div class="col-4 col-sm-4">
+										<div class="cty">
+											<img src="image/sky.png" alt="">
+										</div>
+									</div>
+									<div class="col-8 col-sm-8">
+										<div class="text-cty align-end">
+											<div class="text-head-card">
+												<span class="text-18-bold">SKY VFX</span>
+											</div>
+											<div class="diadiem">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hồ Chí Minh</span>
+											</div>
+											<div class="congviec">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hiện có 4 công việc</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="card">
+							<div class="img-card">
+								<img src="image/unsplash_o1SKqmgSDbg.png" alt="">
+							</div>
+							<div class="card1 p-5">
+								<div class="row align-items-center">
+									<div class="col-4 col-sm-4">
+										<div class="cty">
+											<img src="image/fride.png" alt="">
+										</div>
+									</div>
+									<div class="col-8 col-sm-8">
+										<div class="text-cty align-end">
+											<div class="text-head-card">
+												<span class="text-18-bold">FRIDE STUDIO</span>
+											</div>
+											<div class="diadiem">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hồ Chí Minh</span>
+											</div>
+											<div class="congviec">
+												<img src="image/icon1-03.svg" width="18px" height="18px" alt="">
+												<span class="text-16-rg">Hiện có 4 công việc</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!-- Mobile -->
 
 			</div>
 		</section>
 		<!--				section4-->
-		<section class="cv-studio-khac">
+		<section class="cv-studio-khac" data-aos="fade-left">
 			<div class="container container-tb relative">
 				<h4 style="font-family: dosis-semibold" class="h4 display-none">CÔNG VIỆC TỪ CÁC STUDIO KHÁC</h4>
 				<h4 style="font-family: dosis-semibold" class="h4 display-block d-none ">CÔNG VIỆC TỪ CÁC<br> STUDIO KHÁC</h4>
@@ -1195,7 +1375,7 @@
 		<section class="hoa-si">
 			<div class="container container-tb">
 				<span style="font-family: dosis-semibold" class="h4">HOẶC COMMISSION HỌA SĨ</span>
-				<div class="row pt-9">
+				<div class="row pt-9 slide-mb2 d-none d-m-block">
 					<div class="col-4">
 						<div class="card">
 							<div class="img-card">
@@ -1291,7 +1471,7 @@
 					</div>
 				</div>
 
-				<div class="row pt-9 d-m-none">
+				<div class="row pt-9 d-m-none" data-aos="fade-right">
 					<div class="col-4">
 						<div class="card">
 							<div class="img-card">
@@ -1387,7 +1567,7 @@
 					</div>
 				</div>
 
-				<div class="row pt-9">
+				<div class="row pt-9" data-aos="fade-right">
 					<div class="col-4 d-m-none">
 						<div class="card">
 							<div class="img-card">
@@ -1546,6 +1726,9 @@
 				</div>
 			</div>
 		</div>
+		<div class="copyright">
+			Copyright Họ Nguyễn
+		 </div>
 	</footer>
 	</div>
 	<script>
@@ -1576,6 +1759,23 @@
 			slides[slideIndex - 1].style.display = "block";
 			dots[slideIndex - 1].className += " active1";
 		}
+	</script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/slick.js"></script>
+
+	<script>
+		$('.slide-mb2').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			dots: true,
+			arrows: false
+		});
+
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
 	</script>
 </body>
 
