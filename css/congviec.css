@@ -47,7 +47,23 @@
     padding: 0px;
 }
 	.row>[class*="col-8"]{
-    padding: 0px;
+		padding: 0px;}
+		.row>[class*="col-"] {
+    /* padding: 12px; */
+}
+	.col-5-tb
+	{
+		width:41.66% ;
+	}
+.mr-4-tb
+	{
+		margin-right: 32px;
+	}
+	.pr-2-tb{
+		padding-right: 8px;
+	}
+	.gy-12>[class*="col-"] {
+    padding: 12px !important;
 }
 }
 @media screen and (max-width: 428px)

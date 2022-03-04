@@ -31,9 +31,21 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+img{
+    transition: 0.2s ease-in-out;
+}
+img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
 body{
-	background-color: #272727;
+	/* background-color: #272727; */
 	color: white;
+	background:url("../image/bg.png");
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	overflow-x: hidden;
 }
 section
 {
@@ -146,7 +158,7 @@ section
 	background-color: #F1F0EB;
 	color:#272727;
 }
-.artist
+/* .artist
 {
 	background-color: #A23C26;
 	color: #F1F0EB;
@@ -155,7 +167,7 @@ section
 	font-family: dosis-medium;
 	font-size: 12px;
 	text-align: center;
-}
+} */
 .hg{
 	width: 1px;
 	height: 30px;
@@ -253,19 +265,49 @@ header{
 	color: #F1F0EB;
 	border-bottom: 3px solid transparent;
 	font-size: 16px;
-	margin-left: 96px;
+	margin-left: 56px;
 	transition: all 0.5s linear;
 }
 .menu a:hover
 {
 	border-bottom: 3px solid #F1F0EB;
 }
+.active-menu{
+	border-bottom: 3px solid #F1F0EB !important;
+}
+.right-menu{
+	margin-left: 56px !important;
+}
+.right-menu a{
+	margin-left: 24px !important;
+}
+.art{
+	cursor: pointer;
+}
 
-
+.float-button{
+	background-color: #F1F0EB;
+	position: fixed;
+	top: 193px;
+	z-index: 9999999;
+	padding: 32px 12px;
+	display: flex;
+	flex-direction: column;
+}
+.float-button img{
+	width: 32px;
+}
+.float-button li{
+	margin-bottom: 32px ;
+}
+.float-button li:last-child{
+	margin-bottom: 0 ;
+}
 
 .img-card
 {
 	height: 242px;
+	overflow: hidden;
 }
 .img-card img
 {
@@ -334,14 +376,14 @@ header{
 	text-decoration: none;
 	color: #F1F0EB;
 }
-.anhcanhan
+/* .anhcanhan
 {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
 	position: relative;
 	top: 50%;
-}
+} */
 .text-button
 {
 	color: #F1F0EB;
@@ -414,20 +456,28 @@ header{
 }
 .find{
 	background-color: #F1F0EB;
-	position: relative;
+	display: flex;
+	align-items: center;
 }
 .find img{
-	position: absolute;
-	top: 10px;
+	/* position: absolute; */
 	width: 30px;
 	height: 30px;
-	left: 10px;
+	margin: 10px;
 }
 .find input{
 	border: none;
 	background-color: #F1F0EB;
+<<<<<<< HEAD
 	padding: 20px 0;
 	height: 52px;
+=======
+	/* padding: 20px 0; */
+	height: 50px;
+	width: 100%;
+	outline: none;
+	font-size: 24px;
+>>>>>>> 811b56abc6c214aa31ca16644f279a97831ac18a
 }
 .find1{
 	background-color: #F1F0EB;
@@ -642,8 +692,21 @@ header{
 	width: 100%;
 }
 footer{
-	background-color: #333333;
-	padding: 100px 0;
+	/* background-color: #333333; */
+	padding: 100px 0 0;
+	/* From https://css.glass */
+background: rgba(255, 255, 255, 0.07);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+
+}
+footer a{
+	transition: 0.2s;
+}
+footer a:hover{
+	opacity: 0.5;
 }
 .logo-footer a{
 	font-size: 32px;
@@ -675,15 +738,27 @@ footer{
 .copyright{
 	text-align: center;
 	color: white;
-	padding: 24px 0;
+	padding: 100px 0 24px;
+
+/* background: rgba(255, 255, 255, 0.07);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px); */
 }
 /* Event */
 .ten-cuoc-thi a{
 	font-family: yeseve;
 	text-decoration: none;
-	color: #E2B051;	
+	color: #E2B051;
+	
 }
-
+.ten-cuoc-thi{
+	transition: 0.2s linear;
+}
+.ten-cuoc-thi:hover{
+	transform: scale(1.05);
+	/* opacity: 0.5; */
+}
 .sap-dien-ra{
     background-color: grey;
     width: 245px;
@@ -700,6 +775,12 @@ footer{
     padding-bottom: 20px;
     padding-top: 12px;
 }
+.card-big{
+	cursor: pointer;
+}
+.card{
+	cursor: pointer;
+}
 @media screen and (max-width: 414px) {
 	.ten-cuoc-thi a{
 		font-size: 22px;	
@@ -714,4 +795,10 @@ footer{
     border-bottom: 1px solid #F1F0EB;
     color: #F1F0EB;
     padding-bottom: 4px;
+}
+.form3 input{
+	margin-top: 13px;
+}
+.form3 input:last-child{
+	margin-bottom: 0;
 }
