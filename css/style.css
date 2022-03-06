@@ -468,11 +468,16 @@ header{
 .find input{
 	border: none;
 	background-color: #F1F0EB;
+<<<<<<< HEAD
+	padding: 20px 0;
+	height: 52px;
+=======
 	/* padding: 20px 0; */
 	height: 50px;
 	width: 100%;
 	outline: none;
 	font-size: 24px;
+>>>>>>> 811b56abc6c214aa31ca16644f279a97831ac18a
 }
 .find1{
 	background-color: #F1F0EB;
@@ -792,7 +797,7 @@ backdrop-filter: blur(2px);
     padding-bottom: 4px;
 }
 .form3 input{
-	margin-top: 56px;
+	margin-top: 13px;
 }
 .form3 input:last-child{
 	margin-bottom: 0;
